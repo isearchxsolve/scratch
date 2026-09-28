@@ -10,3 +10,10 @@ dist/
 build/
 coverage/
 .next/
+
+# commit_dirty hygiene - build artifacts are never committed
+node_modules/
+__pycache__/
+*.pyc
+.tmp_*
+
